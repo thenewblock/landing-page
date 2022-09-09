@@ -135,7 +135,12 @@ a:active {color:#FFFFFF;}  /* Selected link   */
     font-size: 48px;
     font-weight: bold;
     padding: 24px;
-    
+}
+
+@media only screen and (max-width: 1350px) {
+    .second > h1 {
+        margin-bottom: -3.5%;
+    }
 }
 
 .features {
