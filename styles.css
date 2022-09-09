@@ -79,10 +79,20 @@ a:active {color:#FFFFFF;}  /* Selected link   */
     color: #E5E7EB;
 }
 
+@media only screen and (max-width: 1050px) {
+    .left {
+        flex-direction: column;
+        display: flex;
+        justify-content: center;
+        max-width: 75%;
+        margin-left: 10%;
+    }
+}
+
 .left > button {
     background-color: #3882F6;
     border: none;
-    border-radius: 10%;
+    border-radius: 7.5%;
     color: white;
     padding: 15px 32px;
     text-align: center;
@@ -175,7 +185,7 @@ a:active {color:#FFFFFF;}  /* Selected link   */
 .quote {
     display: flex;
     flex-direction: column;
-    max-width: 50%;
+    max-width: 75%;
     padding: 5% 0 2% 0;
     margin: 0 10% 0 10%;
     color: #1F2937;
